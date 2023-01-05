@@ -1,5 +1,5 @@
 outs:
-- md5: 873966a5c8d28af0178d39d511397e70.dir
-  size: 188404602
-  nfiles: 6
+- md5: 71d6b3d645cb27b22e77ad5cd6e43f26.dir
+  size: 282606903
+  nfiles: 9
   path: corruptmnist
