@@ -23,6 +23,6 @@ def mnist():
     train_files = [os.path.join("corruptmnist",f) for f in train_files]
     test_file = ["corruptmnist/test.npz"]
 
-    train_dl = DataLoader(MyDataset(train_files), batch_size = 16) #transform=transform)
-    test_dl = DataLoader(MyDataset(test_file), batch_size = 16) #transform=transform)
+    train_dl = DataLoader(MyDataset(train_files), batch_size = 16, transform=transform)
+    test_dl = DataLoader(MyDataset(test_file), batch_size = 16, transform=transform)
     return train_dl, test_dl
